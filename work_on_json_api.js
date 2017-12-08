@@ -1,6 +1,5 @@
 var express=require('express');
 var bodyParser=require('body-parser');
-var jsonQuery = require('json-query')
 var app=express();
 app.use(bodyParser.json());
 
